@@ -107,10 +107,10 @@ $(document).ready(function(){
 		if(ifNumberExist(guess)){
 			alert("you have already guessed this number");
 		}else{
-		arr[count]=guess;	
-		addToList(guess);
-		feedback(guess);
-		guessCount();
+			arr[count]=guess;	
+			addToList(guess);
+			feedback(guess);
+			guessCount();
 		}
 	});
 
